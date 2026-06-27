@@ -1,0 +1,66 @@
+# Practice All Operators
+
+a=10
+b=3
+
+print("Arithmetic Operators")
+print("a+b=",a+b)
+print("a-b=",a-b)
+print("a*b=",a*b)
+print("a/b=",a/b)
+print("a//b=",a//b)
+print("a%b=",a%b)
+print("a**b=",a**b)
+
+print("\nAssignment Operators")
+x=10
+print("x=",x)
+x+=5
+print("x+=5:",x)
+x-=2
+print("x-=2:",x)
+x*=2
+print("x*=2:",x)
+x/=2
+print("x/=2:",x)
+x//=2
+print("x//=2:",x)
+x%=3
+print("x%=3:",x)
+x**=2
+print("x**=2:",x)
+
+print("\nComparison Operators")
+print("a==b:",a==b)
+print("a!=b:",a!=b)
+print("a>b:",a>b)
+print("a<b:",a<b)
+print("a>=b:",a>=b)
+print("a<=b:",a<=b)
+
+print("\nLogical Operators")
+print((a>5)and(b<5))
+print((a<5)or(b<5))
+print(not(a>b))
+
+print("\nBitwise Operators")
+print("a&b=",a&b)
+print("a|b=",a|b)
+print("a^b=",a^b)
+print("~a=",~a)
+print("a<<1=",a<<1)
+print("a>>1=",a>>1)
+
+print("\nIdentity Operators")
+l1=[1,2]
+l2=[1,2]
+l3=l1
+print(l1 is l3)
+print(l1 is l2)
+print(l1 is not l2)
+
+print("\nMembership Operators")
+list1=[10,20,30,40]
+print(20 in list1)
+print(50 in list1)
+print(50 not in list1)
