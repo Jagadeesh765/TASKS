@@ -1,6 +1,6 @@
-# binary=input("enter binary number:")
-# decimal=int(binary,2)
-# print("Decimal =",decimal) 
+binary=input("enter binary number:")
+decimal=int(binary,2)
+print("Decimal =",decimal) 
 #-----------------------------------#
 binary=input("enter binary number:")
 decimal=0
